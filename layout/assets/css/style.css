@@ -1,0 +1,36 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1px;
+}
+
+main{
+    max-width: 1080px;
+    margin: auto;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(122, 121, 26);
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    float: left;
+}
+
+nav li > a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav li > a:hover {
+    background-color: rgb(110, 105, 27) ;
+}
+
+.active{
+    background-color: rgb(109, 110, 31) ;
+}
